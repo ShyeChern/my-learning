@@ -46,7 +46,7 @@ export const articles = [
 		path: '/article/sort-method',
 		title: 'Sort Method',
 		createdDate: '08-02-2021',
-		lastModified: '08-02-2021',
+		lastModified: '03-07-2021',
 		image: require('assets/img/articles/sort-method.png').default,
 	},
 	{

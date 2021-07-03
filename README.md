@@ -1,6 +1,6 @@
 # My Learning
 
-I record some of my learning in the development journey inside here.
+I record some of my learning in the development journey inside here. View at https://learning.shyechern.com/.
 
 ## Project Information
 

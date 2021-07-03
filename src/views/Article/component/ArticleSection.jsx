@@ -14,6 +14,6 @@ export default function ArticleSection({ title, children }) {
 }
 
 ArticleSection.propTypes = {
-	title: PropTypes.string,
-	children: PropTypes.any,
+	title: PropTypes.string.isRequired,
+	children: PropTypes.any.isRequired,
 };

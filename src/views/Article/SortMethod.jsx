@@ -10,7 +10,6 @@ import { Link } from 'react-router-dom';
 const references = [
 	'https://en.wikipedia.org/wiki/Sorting_algorithm#Comparison_sorts',
 	'https://www.javascripttutorial.net/javascript-array-sort/',
-	'https://stackoverflow.com/a/979325/10068816',
 	'and some Stack Overflow...',
 ];
 
@@ -80,6 +79,14 @@ export default function SortMethod() {
 							<Gist id="cb3a20edaee3c9ac4f41e3cd7419bf09" file="SortString.js" />
 						</ArticleSection>
 
+						{/* Sort By Array */}
+						<ArticleSection title="Sort By Array">
+							<p className="article-text">
+								Sort an array according to the sequence of another array
+							</p>
+							<Gist id="cb3a20edaee3c9ac4f41e3cd7419bf09" file="SortByArray.js" />
+						</ArticleSection>
+
 						{/* Reusable Sort Function */}
 						<ArticleSection title="Reusable Sort Function">
 							<p className="article-text">
@@ -91,6 +98,7 @@ export default function SortMethod() {
 							</p>
 							<Gist id="cb3a20edaee3c9ac4f41e3cd7419bf09" file="ReusableSort.js" />
 						</ArticleSection>
+
 						<ArticleReference references={references} />
 					</div>
 				</div>
