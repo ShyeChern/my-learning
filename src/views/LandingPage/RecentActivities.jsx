@@ -16,6 +16,10 @@ export default function RecentActivities() {
 }
 
 const activities = [
+	<ActivityItem date="17 July 2021" key={Math.random()}>
+		Update <a href="/article/js-array-method">Javascript Array Method</a> article and{' '}
+		<a href="/article/react-hooks">React Hooks</a> article
+	</ActivityItem>,
 	<ActivityItem date="03 July 2021" key={Math.random()}>
 		Update <a href="/article/sort-method">Sort Method</a> article
 	</ActivityItem>,

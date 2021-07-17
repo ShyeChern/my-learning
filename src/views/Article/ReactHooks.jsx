@@ -166,10 +166,11 @@ export default function ReactHooks() {
 						{/* useRef */}
 						<ArticleSection title="6. useRef">
 							<p className="article-text">
-								Hooks that helps returns a ref object with current property is initialized. Can use
-								to make certain action such as focus. Since useRef will not cause any re-render in
-								React component, sometime it is used to store value that does not need to change too
-								often or value that changed frequently but does not require re-render.
+								useRef helps to get an object instance by using the element ref attribute. It can be
+								use to make certain action such as focus the element or modify the value inside the
+								reference element. Since useRef will not cause any re-render in React component,
+								sometime it is used to store value that does not need to change too often or value
+								that changed frequently but does not require re-render.
 							</p>
 							<p className="article-highlight-text">
 								<b>Syntax: </b>

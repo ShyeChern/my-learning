@@ -145,13 +145,50 @@ export default function JsArrayMethod() {
 							</center>
 						</ArticleSection>
 
-						{/* Copy an Array */}
-						<ArticleSection title="Copy an Array">
+						{/* Others */}
+						<ArticleSection title="Others">
 							<p className="article-text">
-								Spread operator and slice method can be used to copy array without mutate the
-								original array.
+								This section contains some useful tricks and ways to modify an array.
 							</p>
-							<Gist id="1efcb96bcf8777c474f58450bfe7d36f" file="CopyArray.js" />
+
+							{/* Copy an Array */}
+							<center>
+								<h4>1. Copy an Array</h4>
+								<p className="article-text">
+									Spread operator and slice method can be used to copy array without mutate the
+									original array.
+								</p>
+								<Gist id="1efcb96bcf8777c474f58450bfe7d36f" file="CopyArray.js" />
+							</center>
+
+							{/* Remove Duplicates */}
+							<center>
+								<h4>2. Remove Duplicates</h4>
+								<p className="article-text">
+									Set constructor create Set objects that store unique values. Then, we can use
+									spread operator to transform the Set object into new array to achieve the result.
+								</p>
+								<Gist id="1efcb96bcf8777c474f58450bfe7d36f" file="RemoveDuplicates.js" />
+							</center>
+
+							{/* Remove Duplicates (Array of Object) */}
+							<center>
+								<h4>3. Remove Duplicates (Array of Object)</h4>
+								<p className="article-text">
+									There are two ways provided to filter array of object. First one is using the
+									combination of filter method and findIndex method. By using this method, we can
+									modify the condition according our desired output (such as{' '}
+									<i>v.name === value.name && v.age === value.age</i>). However this method could be
+									a limitation when working on large array because of its O(n<sup>2</sup>)
+									complexity. The second method is using Map constructor. Map constructor requires
+									key (unique) and values. So, we can use one of the object property (to be unique)
+									as key while whole object as the value. Map constructor will only keep last
+									occurrence of the duplicate key and value pairs. Then, we use spread operator and
+									values() function to transform the Map object values into new array to achive the
+									result.
+								</p>
+								<Gist id="1efcb96bcf8777c474f58450bfe7d36f" file="RemoveDuplicatesAOB.js" />
+							</center>
 						</ArticleSection>
 
 						<ArticleReference references={references} />
