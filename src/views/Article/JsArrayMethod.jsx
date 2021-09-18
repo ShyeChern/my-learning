@@ -6,7 +6,7 @@ import ArticleReference from 'views/Article/component/ArticleReference';
 import { useLocation } from 'react-router-dom';
 import { articles } from 'utils/articles';
 import { Link } from 'react-router-dom';
-
+import AdSense from 'components/AdSense';
 const references = [
 	'https://morioh.com/p/3ba421a8a63d?f=5c21fb01c16e2556b555ab32',
 	'and some Stack Overflow...',
@@ -195,6 +195,9 @@ export default function JsArrayMethod() {
 					</div>
 				</div>
 			</div>
+			
+		
+			<AdSense />
 		</>
 	);
 }
