@@ -3,6 +3,7 @@ import { TabContent, TabPane, Nav, NavItem, NavLink } from 'reactstrap';
 import Intro from 'views/LandingPage/Intro';
 import Articles from 'views/LandingPage/Articles';
 import RecentActivities from 'views/LandingPage/RecentActivities';
+import AdSense from 'components/AdSense';
 
 const totalPage = 3;
 export default function LandingPage() {
@@ -68,6 +69,8 @@ export default function LandingPage() {
 						</div>
 					</div>
 				</div>
+
+				<AdSense />
 			</div>
 		</div>
 	);
