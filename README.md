@@ -1,6 +1,6 @@
-# My Learning
+# My Learning (Abandoned)
 
-I record some of my learning in the development journey inside here. View at https://learning.shyechern.com/.
+I record some of my learning in the development journey inside here.
 
 ## Project Information
 
